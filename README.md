@@ -2,11 +2,7 @@
 
 Good news scraper is currently a script for scraping particular news websites for articles. There are multiple functions for each news website to allow the user to choose specifically, as well as a function that uses the NewsAPI to collect all news.
 
-The program consists of three files: datascraper, sentimentAnalysis and populateFirebase. 
-
-The sentimentAnalysis file can be used to iterate through each article and return a value of either negative, neutral or positive. This value can determine whether that article is a negative or positive article.
-
-The populateFirebase file was used to send the data to a Firebase database that an iOS application would read from.
+This was originally created as a dissertation project for an iOS application. It is now being recreated to be a standalone news article scraper with sentiment analysis.
 
 ## Usage
 
