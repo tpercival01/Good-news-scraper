@@ -4,7 +4,7 @@ import praw
 import pandas as pd
 
 def reddit():
-    reddit_authorized = praw.Reddit(client_id="cNCjEQ08CQ7dW1HJwOcLIA",client_secret="nW7deagLVVvAEIrfZdnGnYiaGAPWFg",user_agent="News Scraper", username="DissoBot1", password="Marina0197")
+    reddit_authorized = praw.Reddit(client_id="",client_secret="",user_agent="", username="", password="")
 
     subreddit = reddit_authorized.subreddit("all")
 
